@@ -3,7 +3,12 @@ import AddNav from './AddNav'
 
 const SearchPhone = () => {
   return (
-    <div>
+    <div style={{
+  backgroundImage: "url('https://tse4.mm.bing.net/th/id/OIP.eBJNrWchikkoEIlSRE9ynQHaEo?pid=Api&P=0&h=180')",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  minHeight: "100vh"
+}}>
         <AddNav/>
       <div className="container">
         <div className="row">
